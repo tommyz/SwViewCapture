@@ -21,7 +21,7 @@ class STWKWebViewDemoController: UIViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Capture", style: UIBarButtonItem.Style.plain, target: self, action: #selector(STWKWebViewDemoController.didCaptureBtnClicked(_:)))
         
         webView = WKWebView(frame: self.view.bounds)
-        let url = URL(string: "https://www.baidu.com")
+        let url = URL(string: "https://crm.cnabke.com")
         let request = URLRequest(url: url!)
         _ = webView?.load(request)
         
