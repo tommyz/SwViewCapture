@@ -18,10 +18,10 @@ class STWKWebViewDemoController: UIViewController {
         
         view.backgroundColor = UIColor.red
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Capture", style: UIBarButtonItemStyle.plain, target: self, action: #selector(STWKWebViewDemoController.didCaptureBtnClicked(_:)))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Capture", style: UIBarButtonItem.Style.plain, target: self, action: #selector(STWKWebViewDemoController.didCaptureBtnClicked(_:)))
         
         webView = WKWebView(frame: self.view.bounds)
-        let url = URL(string: "http://www.startry.com")
+        let url = URL(string: "https://www.baidu.com")
         let request = URLRequest(url: url!)
         _ = webView?.load(request)
         

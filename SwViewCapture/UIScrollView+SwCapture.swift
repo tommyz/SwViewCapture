@@ -9,7 +9,7 @@
 import Foundation
 import WebKit
 
-public extension UIScrollView {
+extension UIScrollView {
     
     public func swContentCapture (_ completionHandler: @escaping (_ capturedImage: UIImage?) -> Void) {
         
@@ -24,7 +24,7 @@ public extension UIScrollView {
         let bakFrame     = self.frame
         let bakOffset    = self.contentOffset
         let bakSuperView = self.superview
-        let bakIndex     = self.superview?.subviews.index(of: self)
+        let bakIndex     = self.superview?.subviews.firstIndex(of: self)
         
         // Scroll To Bottom show all cached view
         if self.frame.size.height < self.contentSize.height {
@@ -137,7 +137,7 @@ public extension UIScrollView {
     }
 }
 
-public extension UIWebView {
+extension UIWebView {
     
     public func swContentCapture (_ completionHandler: @escaping (_ capturedImage: UIImage?) -> Void) {
         self.scrollView.swContentCapture(completionHandler)

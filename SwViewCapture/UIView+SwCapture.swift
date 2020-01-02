@@ -12,7 +12,7 @@ import ObjectiveC
 
 private var SwViewCaptureKey_IsCapturing: String = "SwViewCapture_AssoKey_isCapturing"
 
-public extension UIView {
+extension UIView {
     
     @objc public func swSetFrame(_ frame: CGRect) {
         // Do nothing, use for swizzling
