@@ -2,7 +2,7 @@
 
 A nice iOS View Capture Library which can capture all content.
 
-SwViewCapture could convert all content of UIWebView to a UIImage.
+SwViewCapture could convert all content of WKWebView to a UIImage.
 
 一个用起来还不错的iOS截图库.(支持截取所有内容, 适用于所有ScrollView组成的视图, 包括WKWebView)
 
@@ -19,10 +19,9 @@ SwViewCapture支持截取网页以及ScrollView的所有内容
 1. API is more easy to use.
 	* use swift extension
 2. Support to capture all content of scrollView. 
-	* eg: UIScrollView, UITableView, UIWebView
+	* eg: UIScrollView, UITableView, WKWebView
 3. Support capture WKWebView. 
 	* WKWebview is hard to capture; 
-	* WKWebView could be capture like UIWebView
 4. Flasing will not appear in the process of Screenshots.
 	* SwCaptureView use a fake screenshots as a cover which over target view. All the action of target will be hidden below the fake screenshots.
 
@@ -32,7 +31,7 @@ SwViewCapture支持截取网页以及ScrollView的所有内容
 	* 使用Extension去封装API
 
 2. 支持截取滚动视图内的所有内容.
-	* 支持UIScrollView, UITableView, UIWebView
+	* 支持UIScrollView, UITableView, WKWebView
 
 3. 支持截取WKWebView的内容.
 	* 因为WKWebView的内部实现问题, WKWebView比较难去截屏
