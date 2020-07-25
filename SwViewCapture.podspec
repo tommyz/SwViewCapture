@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
 s.name             = "SwViewCapture"
-s.version          = "1.0.6"
+s.version          = "2.3.0"
 s.summary          = "A nice iOS View Capture Library which can capture all content."
 
 s.description      = <<-DESC
-					A nice iOS View Capture Library. SwViewCapture could capture all content of UIWebView & UIScrollView.
+					A nice iOS View Capture Library. SwViewCapture could capture all content of WKWebView & UIScrollView.
                      DESC
 
 s.homepage         = "https://github.com/startry/SwViewCapture"
