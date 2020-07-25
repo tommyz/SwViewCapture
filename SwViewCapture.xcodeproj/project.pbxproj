@@ -10,6 +10,7 @@
 		394BA35F1C7451F60012FCB5 /* UIView+SwCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BA35E1C7451F60012FCB5 /* UIView+SwCapture.swift */; };
 		39CC90871C785ED60057B0CE /* WKWebView+SwCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC90861C785ED60057B0CE /* WKWebView+SwCapture.swift */; };
 		39CC90BF1C8033180057B0CE /* UIScrollView+SwCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC90BE1C8033180057B0CE /* UIScrollView+SwCapture.swift */; };
+		5ABD1E4324CBE4BA00F567DD /* SwViewCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ABD1E4224CBE4BA00F567DD /* SwViewCapture.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		39CC90BE1C8033180057B0CE /* UIScrollView+SwCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+SwCapture.swift"; sourceTree = "<group>"; };
 		39D667891BE2024900BF0BD7 /* SwViewCapture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwViewCapture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D6678E1BE2024900BF0BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ABD1E4224CBE4BA00F567DD /* SwViewCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwViewCapture.h; path = ../../TommySwViewCapture/SwViewCapture/SwViewCapture.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		39D6678B1BE2024900BF0BD7 /* SwViewCapture */ = {
 			isa = PBXGroup;
 			children = (
+				5ABD1E4224CBE4BA00F567DD /* SwViewCapture.h */,
 				39D6678E1BE2024900BF0BD7 /* Info.plist */,
 				394BA35E1C7451F60012FCB5 /* UIView+SwCapture.swift */,
 				39CC90861C785ED60057B0CE /* WKWebView+SwCapture.swift */,
@@ -65,6 +68,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ABD1E4324CBE4BA00F567DD /* SwViewCapture.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
